@@ -33,6 +33,9 @@ dependencies {
 
     compile 'org.springframework.security:spring-security-web:4.1.0.RELEASE'
 
+    testCompile 'org.jtwig:jtwig-spring-boot-starter:5.+'
+    testCompile 'org.springframework.security:spring-security-config:4.1.0.RELEASE'
+    testCompile 'org.jsoup:jsoup:1.10.2'
     testCompile 'commons-io:commons-io:2.4'
     testCompile 'org.mockito:mockito-core:1.10.19'
     testCompile 'org.hamcrest:hamcrest-all:1.3'
